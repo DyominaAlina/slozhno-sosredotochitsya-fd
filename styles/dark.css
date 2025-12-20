@@ -5,8 +5,33 @@
 */
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bacground-image: url('../images/cover-image-dark.png');
+  --background-color: #000838;
+  --text-size: 18px;
+  --text-weight: 700;
+  --text-color: #f1b2ce;
+  --bg-text-color: #ff0070;
+  --title-text-color: #ff0070;
+  --border-button-color:#ff007066;
+  --content-title-color: #000028;
+  --letter-spacing: 0;
+  --slogon-color: #db00ff;
+  --rec: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --bacground-image: url('../images/cover-image-dark.png');
+  --background-color: #000838;
+  --text-size: 18px;
+  --text-weight: 700;
+  --text-color: #f1b2ce;
+  --bg-text-color: #ff0070;
+  --title-text-color: #ff0070;
+  --border-button-color:#ff007066;
+  --content-title-color: #000028;
+  --letter-spacing: 0;
+  --slogon-color: #db00ff;
+  --rec: block;
+}
 }
