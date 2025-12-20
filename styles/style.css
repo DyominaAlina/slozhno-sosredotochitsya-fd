@@ -384,15 +384,19 @@ font-family: 'IBM Plex mono', sans-serif;
   .sunset { 
     grid-area: sunset; 
   }
+  
   .ice-cream { 
     grid-area: icecream; 
   }
+
   .tape {
     grid-area: tape; 
   }
+
   .books { 
     grid-area: books;
    }
+
   .street { 
     grid-area: street; 
   }
