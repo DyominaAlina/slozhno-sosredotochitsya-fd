@@ -6,32 +6,30 @@
 
 :root.theme-dark {
   --bacground-image: url('../images/cover-image-dark.png');
-  --background-color: #000838;
+  --main-bg-color: #000838;
   --text-size: 18px;
   --text-weight: 700;
   --text-color: #f1b2ce;
   --bg-text-color: #ff0070;
   --title-text-color: #ff0070;
-  --border-button-color:#ff007066;
+  --border-button-color: #ff007066;
   --content-title-color: #000028;
-  --letter-spacing: 0;
   --slogon-color: #db00ff;
   --rec: block;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --bacground-image: url('../images/cover-image-dark.png');
-  --background-color: #000838;
-  --text-size: 18px;
-  --text-weight: 700;
-  --text-color: #f1b2ce;
-  --bg-text-color: #ff0070;
-  --title-text-color: #ff0070;
-  --border-button-color:#ff007066;
-  --content-title-color: #000028;
-  --letter-spacing: 0;
-  --slogon-color: #db00ff;
-  --rec: block;
-}
+    --bacground-image: url('../images/cover-image-dark.png');
+    --main-bg-color: #000838;
+    --text-size: 18px;
+    --text-weight: 700;
+    --text-color: #f1b2ce;
+    --bg-text-color: #ff0070;
+    --title-text-color: #ff0070;
+    --border-button-color: #ff007066;
+    --content-title-color: #000028;
+    --slogon-color: #db00ff;
+    --rec: block;
+  }
 }

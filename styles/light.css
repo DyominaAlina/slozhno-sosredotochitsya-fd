@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bacground-image: url('../images/cover-image-light.png');
-  --background-color: #ffeef6;
+  --main-bg-color: #ffeef6;
   --text-color: #353430;
   --bg-text-color: #ff8dcb;
   --title-text-color: #353430;
@@ -22,14 +22,14 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --bacground-image: url('../images/cover-image-light.png');
-  --background-color: #ffeef6;
-  --text-color: #353430;
-  --bg-text-color: #ff8dcb;
-  --title-text-color: #353430;
-  --content-title-color: #353430;
-  --slogon-color: #ffc2e6;
-  --border-button-color: #35343066;
-  --rec: none;
-}
+    --bacground-image: url('../images/cover-image-light.png');
+    --main-bg-color: #ffeef6;
+    --text-color: #353430;
+    --bg-text-color: #ff8dcb;
+    --title-text-color: #353430;
+    --content-title-color: #353430;
+    --slogon-color: #ffc2e6;
+    --border-button-color: #35343066;
+    --rec: none;
+  }
 }
